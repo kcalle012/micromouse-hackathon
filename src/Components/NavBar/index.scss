@@ -1,11 +1,28 @@
 nav {
-    height: 10vh;
-    background-color: #d1190d;
+
+    height: 7vh;
+    background: rgba(209, 25, 13, 0.5);
+    position: fixed;
+    top: 0;
     display: flex;
     flex-direction: row;
-    justify-content: center;
+    justify-content: space-evenly;
     align-items: center;
-    gap: 3vw;
-    
+    width: 100%;
+    z-index: 10;
+
+    .logo {
+        font-size: 1.5rem;
+        color: white;
+    }
+
+    a {
+        text-decoration: none;
+        color: white;
+        font-weight: 500;
+        font-size: 1.5rem;
+        border-bottom-width: 0%;
+    }
+
 
 }
