@@ -1,0 +1,23 @@
+#contact {
+  width: 100%;
+  background-color: #d1190d;
+  p {
+    color: white;
+    font-weight: 200;
+    margin: unset;
+    padding-bottom: 2%;
+    a {
+      all: unset;
+      color: white;
+      font-weight: 900;
+    }
+    a:hover {
+        cursor: pointer;
+      }
+  }
+
+  h1 {
+    margin: unset;
+    color: white;
+  }
+}

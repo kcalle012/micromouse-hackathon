@@ -53,10 +53,31 @@
 
         img {
             width: 100%;
-            
+        }
+    }
+}
+
+@media(max-width:1200px){
+    #about {
+        .orgs{
+            gap:3rem;
+        }
+    }
+}
+
+@media(max-width:900px){
+
+    #about {
+        h1 {
+            font-size: 2rem;
+            text-align: center;
         }
 
-        
-        
+        .org-logo{
+            min-width: 100px;
+        }
+
+
     }
+
 }

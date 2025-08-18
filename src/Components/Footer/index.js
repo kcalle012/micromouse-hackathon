@@ -4,9 +4,9 @@ import "./index.scss"
 function Footer() {
   return (
     <footer>
-        Footer
+      ☺ Website provided by the Computing Club of Montclair State University ☺
     </footer>
-  )
+  );
 }
 
 export default Footer

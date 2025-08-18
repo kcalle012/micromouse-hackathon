@@ -6,7 +6,7 @@ import { faArrowCircleDown } from "@fortawesome/free-solid-svg-icons";
 
 function Welcome() {
   return (
-    <div className="welcome-container">
+    <section className="welcome-container" id="home">
       <div className="welcome-msg">
         <h2>IEEE Montclair presents...</h2>
         <h1>MicroMouse HawkHack 2025</h1>
@@ -26,7 +26,7 @@ function Welcome() {
       <a href="#about" className="arrow-down">
         <FontAwesomeIcon icon={faArrowCircleDown} bounce color="white" />
       </a>
-    </div>
+    </section>
   );
 }
 

@@ -77,3 +77,13 @@
     color: white;
 }
 
+@media(max-width:1120px){
+    .welcome-msg {
+        top: unset;
+        left: unset;
+        align-items: center;
+        h1 {
+            font-size: 3rem;
+        }
+    }
+}

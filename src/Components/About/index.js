@@ -2,7 +2,7 @@ import React from "react";
 import "./index.scss";
 import ComputingClubLogo from "../../Assets/Images/computing-club-logo-white.png";
 import RoboticsClubLogo from "../../Assets/Images/robotics-club.jpeg"
-import IEEELogo from "../../Assets/Images/ieee-logo.png"
+import APSLogo from "../../Assets/Images/aps-logo.png"
 
 function About() {
   return (
@@ -74,12 +74,12 @@ function About() {
           </a>
           <a
             className="org-logo"
-            href="https://www.ieee.org/"
+            href="https://www.raiserobot.com/"
             target={"_blank"}
             rel="noopener noreferrer"
           >
             <img
-              src={IEEELogo}
+              src={APSLogo}
               alt="Logo for the Computing Club of Montclair State University"
             />
           </a>
