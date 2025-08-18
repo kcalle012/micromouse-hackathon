@@ -84,11 +84,14 @@
   .org-logo {
     max-width: 50px;
   }
+  #about {
+    h1 {
+      font-size: 1.25rem;
+      align-self: center;
+    }
+  }
+
   .text-container {
     width: 90%;
-
-    h1 {
-        font-size: 0.5rem;
-    }
   }
 }
