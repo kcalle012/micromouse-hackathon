@@ -1,83 +1,94 @@
 #about {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    width: 100%;
-    background-color: rgba(209, 25, 13, 1);
-    padding-top: 2%;
-    padding-bottom: 2%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  background-color: rgba(209, 25, 13, 1);
+  padding-top: 2%;
+  padding-bottom: 2%;
 
+  h3 {
+    color: white;
+    font-size: 2rem;
+  }
 
-    h3 {
-        color: white;
-        font-size: 2rem;
-    }
-
-    h1 {
-        font-size: 3rem;
-        color: rgba(209, 25, 13, 1);
-        background-color: white;
-        padding: 10px;
-    }
-
+  h1 {
+    font-size: 3rem;
+    color: rgba(209, 25, 13, 1);
+    background-color: white;
+    padding: 10px;
+  }
 }
 
 .text-container {
-    display: flex;
-    flex-direction: column;
-    align-items: start;
-    justify-content: center;
-    width: 60%;
-    text-align: left;
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  justify-content: center;
+  width: 60%;
+  text-align: left;
 
-    span {
-        font-weight: 700;
-    }
+  span {
+    font-weight: 700;
+  }
 
-    p,span {
-        font-size: 1rem;
-        color: white;
-    }
+  p,
+  span {
+    font-size: 1rem;
+    color: white;
+  }
 }
 
 .orgs {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10rem;
+  flex-wrap: wrap;
 
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    gap: 10rem;
-    
-    .org-logo{
-        width: 20%;
+  .org-logo {
+    width: 20%;
 
-        img {
-            width: 100%;
-        }
+    img {
+      width: 100%;
     }
+  }
 }
 
-@media(max-width:1200px){
-    #about {
-        .orgs{
-            gap:3rem;
-        }
+@media (max-width: 1200px) {
+  #about {
+    .orgs {
+      gap: 3rem;
     }
+  }
 }
 
-@media(max-width:900px){
-
-    #about {
-        h1 {
-            font-size: 2rem;
-            text-align: center;
-        }
-
-        .org-logo{
-            min-width: 100px;
-        }
-
-
+@media (max-width: 900px) {
+  #about {
+    h1 {
+      font-size: 2rem;
+      text-align: center;
     }
 
+    .org-logo {
+      min-width: 100px;
+    }
+  }
+}
+
+@media (max-width: 400px) {
+  .orgs {
+    gap: 1rem;
+  }
+  .org-logo {
+    max-width: 50px;
+  }
+  .text-container {
+    width: 90%;
+
+    h1 {
+        font-size: 0.5rem;
+    }
+  }
 }

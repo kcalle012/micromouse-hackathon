@@ -83,7 +83,29 @@
         left: unset;
         align-items: center;
         h1 {
-            font-size: 3rem;
+            font-size: 2rem;
         }
     }
 }
+
+@media(max-width:468px){
+    .welcome-msg{
+        gap: 10px;
+
+        h2 {
+            font-size: 1.25rem;
+        }
+        h1 {
+            font-size: 1.25rem;
+        }
+    }
+
+    .registration-btn {
+        font-size: 1rem;
+    }
+
+    .arrow-down {
+        bottom: 15%;
+    }
+}
+
