@@ -12,12 +12,12 @@ function Welcome() {
         <h1>MicroMouse HawkHack 2025</h1>
         <p>A competition where algorithms meet real-world problem solving</p>
         <a
-          href="https://google.com"
+          href="https://docs.google.com/forms/d/e/1FAIpQLScVYWLyfLbmftAKwKQtKJ1kPWdG1rw9EM3_7uZZrm6KKci1Fw/viewform?usp=header"
           className="registration-btn"
           target="_blank"
           rel="nooperner noreferrer"
         >
-          Register Now!
+          Register Interest!
         </a>
       </div>
       <div class="video-background">
