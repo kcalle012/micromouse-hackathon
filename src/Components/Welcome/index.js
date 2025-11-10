@@ -17,7 +17,7 @@ function Welcome() {
           target="_blank"
           rel="nooperner noreferrer"
         >
-          Register Interest!
+          Click Here to Register Interest!
         </a>
       </div>
       <div class="video-background">
