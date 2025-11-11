@@ -14,8 +14,6 @@
     flex-direction: column;
     gap:20px;
     background: transparent;
-    width: 90%;
-    max-width: 1400px;
     padding: 20px;
     border-radius: 10px;
     overflow-y: auto;
@@ -68,6 +66,10 @@ button:hover {
 }
 
 @media (max-width: 768px) {
+
+    .question-container {
+        padding: 30px;
+    }
     h2 {
         font-size: 1.8rem; /* Slightly smaller font size for tablets */
     }
@@ -93,8 +95,8 @@ button:hover {
     }
 
     .question-container {
-        width: 100%; /* Utilize full screen width */
-        padding: 15px; /* Reduce padding */
+        padding: 15px; 
+        
     }
 
     .answer {

@@ -134,7 +134,7 @@ const Faq = () => {
         <h2>Frequently Asked Questions</h2>
         {questions.map((q) => (
           <div key={q.id}>
-            <button
+            <button className="faq-questions"
               onClick={() =>
                 setActiveQuestion(activeQuestion === q.id ? null : q.id)
               }
