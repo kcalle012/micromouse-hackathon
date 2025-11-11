@@ -1,19 +1,20 @@
 {
   "files": {
-    "main.css": "/static/css/main.6ce6869a.css",
-    "main.js": "/static/js/main.2bdf419f.js",
+    "main.css": "/static/css/main.63f440af.css",
+    "main.js": "/static/js/main.65c5d9d9.js",
     "static/js/453.a7b8d8e1.chunk.js": "/static/js/453.a7b8d8e1.chunk.js",
     "static/media/micromouse-background.mp4": "/static/media/micromouse-background.52e8933b6c462b590514.mp4",
+    "static/media/skyacademy.PNG": "/static/media/skyacademy.358d651b565ff2fb91b8.PNG",
     "static/media/aps-logo.png": "/static/media/aps-logo.3bb283a5f13f0cbae491.png",
     "static/media/computing-club-logo-white.png": "/static/media/computing-club-logo-white.033b1e01536e0db22163.png",
     "static/media/robotics-club.jpeg": "/static/media/robotics-club.6dcf05d8f6cc3c09a6de.jpeg",
     "index.html": "/index.html",
-    "main.6ce6869a.css.map": "/static/css/main.6ce6869a.css.map",
-    "main.2bdf419f.js.map": "/static/js/main.2bdf419f.js.map",
+    "main.63f440af.css.map": "/static/css/main.63f440af.css.map",
+    "main.65c5d9d9.js.map": "/static/js/main.65c5d9d9.js.map",
     "453.a7b8d8e1.chunk.js.map": "/static/js/453.a7b8d8e1.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.6ce6869a.css",
-    "static/js/main.2bdf419f.js"
+    "static/css/main.63f440af.css",
+    "static/js/main.65c5d9d9.js"
   ]
 }
