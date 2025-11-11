@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.c79102a0.css",
-    "main.js": "/static/js/main.65c5d9d9.js",
+    "main.js": "/static/js/main.c91beda3.js",
     "static/js/453.a7b8d8e1.chunk.js": "/static/js/453.a7b8d8e1.chunk.js",
     "static/media/micromouse-background.mp4": "/static/media/micromouse-background.52e8933b6c462b590514.mp4",
     "static/media/skyacademy.PNG": "/static/media/skyacademy.358d651b565ff2fb91b8.PNG",
@@ -10,11 +10,11 @@
     "static/media/robotics-club.jpeg": "/static/media/robotics-club.6dcf05d8f6cc3c09a6de.jpeg",
     "index.html": "/index.html",
     "main.c79102a0.css.map": "/static/css/main.c79102a0.css.map",
-    "main.65c5d9d9.js.map": "/static/js/main.65c5d9d9.js.map",
+    "main.c91beda3.js.map": "/static/js/main.c91beda3.js.map",
     "453.a7b8d8e1.chunk.js.map": "/static/js/453.a7b8d8e1.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.c79102a0.css",
-    "static/js/main.65c5d9d9.js"
+    "static/js/main.c91beda3.js"
   ]
 }
