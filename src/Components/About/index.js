@@ -1,8 +1,9 @@
 import React from "react";
 import "./index.scss";
 import ComputingClubLogo from "../../Assets/Images/computing-club-logo-white.png";
-import RoboticsClubLogo from "../../Assets/Images/robotics-club.jpeg"
-import APSLogo from "../../Assets/Images/aps-logo.png"
+import RoboticsClubLogo from "../../Assets/Images/robotics-club.jpeg";
+import APSLogo from "../../Assets/Images/aps-logo.png";
+import SkyAcademyLogo from "../../Assets/Images/skyacademy.PNG";
 
 function About() {
   return (
@@ -84,6 +85,8 @@ function About() {
             />
           </a>
         </div>
+
+        <img src={SkyAcademyLogo} alt="logo for sky academy" id="SkyAcademyLogo"/>
       </div>
     </section>
   );
