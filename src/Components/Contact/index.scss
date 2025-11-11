@@ -1,6 +1,6 @@
 #contact {
   width: 100%;
-  background-color: #d1190d;
+  background-color: #333333;
   p {
     color: white;
     font-weight: 200;
@@ -10,6 +10,9 @@
       all: unset;
       color: white;
       font-weight: 900;
+      background-color: rgba(209, 25, 13, 1);
+      padding: 5px;
+      margin: 5px;
     }
     a:hover {
         cursor: pointer;
