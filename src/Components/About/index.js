@@ -9,7 +9,7 @@ function About() {
   return (
     <section id="about">
       <div className="text-container">
-        <h1>MicroMouse HawkHack 2025</h1>
+        <h1>MicroMouse HawkHack 2026</h1>
         <p>
           <span>Date: </span>TBD
         </p>
