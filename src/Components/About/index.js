@@ -11,10 +11,10 @@ function About() {
       <div className="text-container">
         <h1>MicroMouse HawkHack 2026</h1>
         <p>
-          <span>Date: </span>TBD
+          <span>Date: </span>February 28th, 2026
         </p>
         <p>
-          <span>Time: </span>TBD
+          <span>Time: </span>10am - 6pm
         </p>
         <p>
           <span>Location: </span>TBD

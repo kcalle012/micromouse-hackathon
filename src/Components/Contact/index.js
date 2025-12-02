@@ -1,5 +1,7 @@
-import React from 'react'
-import "./index.scss"
+import React from "react";
+import "./index.scss";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { faDiscord } from "@fortawesome/free-brands-svg-icons";
 
 function Contact() {
   return (
@@ -17,8 +19,20 @@ function Contact() {
           Computing Club email
         </a>
       </p>
+      <div>
+        <a href="https://discord.gg/uZG9Z694PV">
+          <FontAwesomeIcon
+                    
+            icon={faDiscord}
+            color="#d1190d"
+            fontSize={"3rem"}
+            id="discord"
+          />
+        </a>
+        <h3>Join our discord to stay up to date!</h3>
+      </div>
     </section>
   );
 }
 
-export default Contact
+export default Contact;

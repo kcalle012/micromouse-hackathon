@@ -44,7 +44,7 @@ const Faq = () => {
     {
       id: 4,
       question:
-        "Other than the main programmer, what types of teammate do you need (ex: teammate who handles the budget of materials for making the micromouse, teammate who focuses on the electrical aspects)Do I need to pay to participate?",
+        "Other than the main programmer, what types of teammate do you need? (ex: teammate who handles the budget of materials for making the micromouse, teammate who focuses on the electrical aspects)",
       answer: (
         <>
           {" "}
